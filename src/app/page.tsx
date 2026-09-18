@@ -3,7 +3,7 @@ import Footer from '@/components/layout/Footer';
 import Hero from '@/components/sections/Hero';
 import MarqueeBanner from '@/components/sections/MarqueeBanner';
 import CategoryShowcase from '@/components/sections/CategoryShowcase';
-import CatalogueSection from '@/components/sections/CatalogueSection';
+import FeaturedProducts from '@/components/sections/FeaturedProducts';
 import SpecialRentreeCeremonie from '@/components/sections/SpecialRentreeCeremonie';
 import WholesaleBanner from '@/components/sections/WholesaleBanner';
 import DeliveryInfoSection from '@/components/sections/DeliveryInfoSection';
@@ -16,7 +16,7 @@ export default function HomePage() {
       <Hero />
       <MarqueeBanner />
       <CategoryShowcase />
-      <CatalogueSection />
+      <FeaturedProducts />
       <SpecialRentreeCeremonie />
       <WholesaleBanner />
       <DeliveryInfoSection />
