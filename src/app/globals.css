@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ashla-dark: #1A1D1A;
+  --ashla-pink: #FF3864;
+  --ashla-yellow: #FFD166;
+  --ashla-mint: #2EC4B6;
+  --ashla-cream: #FDFBF7;
+  --ashla-border: #EAE5DE;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--ashla-dark);
+  background: var(--ashla-cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Custom button hover bounce */
+.btn-bounce {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-bounce:hover {
+  transform: translateY(-2px);
+}
