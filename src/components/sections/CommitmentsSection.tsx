@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Feather, Sparkles, Clock, MessageSquareCheck } from 'lucide-react';
+import { ShieldCheck, Feather, Sparkles, Clock, MessageSquare } from 'lucide-react';
 
 const commitments = [
   {
@@ -15,7 +15,7 @@ const commitments = [
     description: 'Cotons peignés, lins légers et doublures anti-irritations pensés spécialement pour le confort des enfants sous le climat de Dakar.',
   },
   {
-    icon: MessageSquareCheck,
+    icon: MessageSquare,
     color: 'bg-[#FFD166]/20 text-[#1A1D1A]',
     title: 'Conseil Pointure & Vidéo Direct',
     description: 'Un doute sur la pointure ou la taille en mois/années ? Notre conseillère vous envoie photos réelles et mesures en direct sur WhatsApp.',
