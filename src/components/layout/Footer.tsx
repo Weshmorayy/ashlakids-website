@@ -12,9 +12,9 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="inline-block">
               <img
-                src="/images/brand/logo.png"
+                src="/images/brand/logo-white.png"
                 alt={siteConfig.name}
-                className="h-16 sm:h-20 w-auto object-contain brightness-0 invert"
+                className="h-12 sm:h-14 w-auto object-contain"
               />
             </Link>
             <p className="text-xs text-white/70 leading-relaxed max-w-sm">

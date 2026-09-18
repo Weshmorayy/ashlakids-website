@@ -203,4 +203,25 @@ export const siteConfig = {
       icon: "Sparkles",
     },
   ],
+
+  testimonials: [
+    {
+      name: "Fatou D.",
+      location: "Almadies, Dakar",
+      comment: "Les baskets rétro sont magnifiques et très solides ! Mon fils les porte pour l'école tous les jours. Livraison rapide reçue le jour même par Wave.",
+      rating: 5,
+    },
+    {
+      name: "Mariama S.",
+      location: "Sacré-Cœur 3, Dakar",
+      comment: "J'ai commandé la robe de princesse en tulle pour les 3 ans de ma fille. La qualité du tissu et la doublure en coton sont parfaites. Bravo Ashla Kids !",
+      rating: 5,
+    },
+    {
+      name: "Awa B.",
+      location: "Mermoz, Dakar",
+      comment: "Super service client sur WhatsApp ! Ils m'ont conseillé la bonne pointure en direct avec une vidéo de la semelle. Sac Mickey adorable.",
+      rating: 5,
+    },
+  ],
 };

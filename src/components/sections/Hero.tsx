@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { siteConfig } from '@/config/site';
 import { Sparkles, ShoppingBag, ArrowRight, ShieldCheck, Truck, Package, MessageCircle } from 'lucide-react';
 
@@ -42,14 +43,14 @@ export default function Hero() {
 
             {/* Quick Action Buttons */}
             <div className="flex flex-wrap gap-4 pt-2">
-              <a
-                href="#boutique"
+              <Link
+                href="/boutique"
                 className="bg-[#FF3864] hover:bg-[#E02854] text-white px-7 py-4 rounded-2xl font-bold text-xs uppercase tracking-wider flex items-center gap-2.5 shadow-lg shadow-pink-500/25 transition-all btn-bounce"
               >
                 <ShoppingBag size={16} />
                 <span>Voir le catalogue</span>
                 <ArrowRight size={15} />
-              </a>
+              </Link>
 
               <a
                 href={`https://wa.me/${siteConfig.whatsappRaw}?text=${encodeURIComponent("Bonjour Ashla Kids, je souhaite voir les articles disponibles en boutique !")}`}

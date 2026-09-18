@@ -63,11 +63,11 @@ export default function Header() {
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Brand Logo */}
-          <Link href="/" className="flex items-center gap-2 group py-0.5">
+          <Link href="/" className="flex items-center gap-2 group py-1">
             <img
               src="/images/brand/logo.png"
               alt={siteConfig.name}
-              className="h-10 sm:h-12 md:h-13 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
             />
           </Link>
 
@@ -143,9 +143,9 @@ export default function Header() {
           <div className="relative w-full max-w-xs bg-[#1A1D1A] text-white h-full shadow-2xl flex flex-col p-6 z-10 overflow-y-auto">
             <div className="flex items-center justify-between pb-5 border-b border-white/10">
               <img
-                src="/images/brand/logo.png"
+                src="/images/brand/logo-white.png"
                 alt={siteConfig.name}
-                className="h-11 w-auto object-contain brightness-0 invert"
+                className="h-10 w-auto object-contain"
               />
               <button
                 onClick={() => setMobileMenuOpen(false)}
