@@ -1,7 +1,11 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/page": "app/page.js"
+  "/grossistes/page": "app/grossistes/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/livraison-faq/page": "app/livraison-faq/page.js",
+  "/page": "app/page.js",
+  "/boutique/page": "app/boutique/page.js"
 }

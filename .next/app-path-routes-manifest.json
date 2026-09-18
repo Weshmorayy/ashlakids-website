@@ -1,7 +1,11 @@
 {
-  "/_not-found/page": "/_not-found",
   "/robots.txt/route": "/robots.txt",
   "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/_not-found/page": "/_not-found",
   "/sitemap.xml/route": "/sitemap.xml",
-  "/page": "/"
+  "/grossistes/page": "/grossistes",
+  "/contact/page": "/contact",
+  "/livraison-faq/page": "/livraison-faq",
+  "/page": "/",
+  "/boutique/page": "/boutique"
 }

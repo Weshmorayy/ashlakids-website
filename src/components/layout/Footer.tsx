@@ -1,20 +1,23 @@
 import React from 'react';
+import Link from 'next/link';
 import { siteConfig } from '@/config/site';
-import { MessageCircle, Phone, MapPin, Mail, Sparkles } from 'lucide-react';
+import { Phone, MapPin, Mail, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="bg-[#1A1D1A] text-white pt-16 pb-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
-          {/* Brand & Slogan */}
+          {/* Brand & Slogan with Bigger Logo */}
           <div className="space-y-4">
-            <img
-              src="/images/brand/logo.png"
-              alt={siteConfig.name}
-              className="h-11 w-auto brightness-0 invert"
-            />
-            <p className="text-xs text-white/70 leading-relaxed">
+            <Link href="/" className="inline-block">
+              <img
+                src="/images/brand/logo.png"
+                alt={siteConfig.name}
+                className="h-16 sm:h-20 w-auto object-contain brightness-0 invert"
+              />
+            </Link>
+            <p className="text-xs text-white/70 leading-relaxed max-w-sm">
               {siteConfig.description}
             </p>
             <div className="pt-2">
@@ -24,15 +27,15 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Nav */}
+          {/* Multi-Page Navigation */}
           <div>
-            <h4 className="font-serif font-bold text-base text-white mb-4">Nos Rayons</h4>
+            <h4 className="font-serif font-bold text-base text-white mb-4">Pages du Site</h4>
             <ul className="space-y-2 text-xs text-white/70">
-              <li><a href="#chaussures" className="hover:text-[#FF3864] transition-colors">Chaussures &amp; Baskets (21 à 36)</a></li>
-              <li><a href="#vetements" className="hover:text-[#FF3864] transition-colors">Ensembles &amp; Prêt-à-porter</a></li>
-              <li><a href="#ceremonie" className="hover:text-[#FF3864] transition-colors">Robes de Cérémonie &amp; Princesse</a></li>
-              <li><a href="#sacs" className="hover:text-[#FF3864] transition-colors">Sacs Maternelle Disney &amp; Bérets</a></li>
-              <li><a href="#gros" className="hover:text-[#FF3864] transition-colors">Tarifs Grossistes &amp; Revendeurs</a></li>
+              <li><Link href="/" className="hover:text-[#FF3864] transition-colors">Accueil</Link></li>
+              <li><Link href="/boutique" className="hover:text-[#FF3864] transition-colors">Boutique &amp; Catalogue</Link></li>
+              <li><Link href="/grossistes" className="hover:text-[#FF3864] transition-colors">Espace Grossistes &amp; Revendeurs</Link></li>
+              <li><Link href="/livraison-faq" className="hover:text-[#FF3864] transition-colors">Livraison à Dakar &amp; FAQ</Link></li>
+              <li><Link href="/contact" className="hover:text-[#FF3864] transition-colors">Contact &amp; Commande sur mesure</Link></li>
             </ul>
           </div>
 

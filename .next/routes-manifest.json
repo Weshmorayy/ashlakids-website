@@ -33,6 +33,30 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/boutique",
+      "regex": "^/boutique(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/boutique(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/grossistes",
+      "regex": "^/grossistes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/grossistes(?:/)?$"
+    },
+    {
+      "page": "/livraison-faq",
+      "regex": "^/livraison\\-faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/livraison\\-faq(?:/)?$"
+    },
+    {
       "page": "/manifest.webmanifest",
       "regex": "^/manifest\\.webmanifest(?:/)?$",
       "routeKeys": {},
